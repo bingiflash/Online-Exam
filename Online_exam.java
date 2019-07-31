@@ -10,7 +10,7 @@ import java.awt.image.*;
 import java.io.*;
 import javax.imageio.*;
 
-public class lufmonvencodejam11 
+public class online_exam 
 extends Frame
 implements ActionListener,WindowListener
 {
@@ -87,7 +87,7 @@ Panel p=new Panel();
 
 TextArea ta=new TextArea("Instructions:\n\n1.click 'start' button to start the exam.\n2.timer will be for 10 min after 10 min your answers will be locked.\n3.enter your answers in specified boxes as 1/2/3/4.\n4.Try to attempt every question as there is no negative marking.\n5.click submit buton whenever you want to submit your answers\n6.if you have any problem ,please contact the coordinator for help.\n\nCaution:\n\n1.Strictly don't use winows buttons(minimize,maximize,close)\n2.don't close command prompt.");
 
-lufmonvencodejam11()
+online_exam()
 {
 
 ButtonGroup bg[]=new ButtonGroup[10];
@@ -436,6 +436,6 @@ public void windowStateChanged(WindowEvent e) {}
 
 public static void main(String args[])
 {
-new lufmonvencodejam11();
+new online_exam();
 }
 }
